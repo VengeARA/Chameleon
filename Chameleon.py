@@ -12,7 +12,7 @@ categories = {
     "Cold Drinks for Summer": [
         "Lemonade", "Iced Tea", "Smoothie", "Milkshake", "Cold Coffee", "Coconut Water", "Iced Latte", "Frappe",
         "Slushie", "Iced Matcha", "Fruit Punch", "Mint Mojito", "Ice Water", "Soda", "Root Beer", "Iced Chocolate",
-        "Bubble Tea", "Iced Americano", "Orange Juice", "Apple Juice", "Ginger Ale", "Cola", "Sports Drink", "Sparkling Water", "Shirley Temple"
+        "Bubble Tea", "Iced Americano", "Orange Juice", "Apple Juice", "Ginger Ale", "Cola", "Sports Drink", "Sparkling Water"
     ],
     "Winter Destinations": [
         "Australia", "Chicago", "Paris", "New York", "London", "Dubai", "Toronto", "Rome", "Barcelona", "Tokyo",
