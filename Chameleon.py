@@ -5,9 +5,9 @@ import pandas as pd
 # Categories dictionary
 categories = {
     "Snacks at the Movies": [
-        "Popcorn", "Nachos", "Hot Dog", "Pretzel", "Candy", "Chocolate Bar", "Gummy Bears", "Ice Cream",
-        "Soda", "Milkshake", "Slushie", "Caramel Corn", "Churros", "French Fries", "Onion Rings", "Peanuts",
-        "Trail Mix", "Cupcake", "Brownie", "Pizza Slice", "Soft Drink", "Water Bottle", "Cheese Sticks", "Corn Dog", "Fruit Cup"
+        "Popcorn", "Nachos", "Hot Dog", "Donut", "Candy", "Chocolate Bar", "Nuggets", "Ice Cream",
+        "Soda", "Milkshake", "Slushie", "Jaalapeño Poppers", "French Fries", "Onion Rings", "Garlic Bread",
+        "Cupcake", "Brownie", "Pizza Slice", "Soft Drink", "Water Bottle", "Cheese Sticks", "Corn Dog", "Fruit Cup"
     ],
     "Cold Drinks for Summer": [
         "Lemonade", "Iced Tea", "Smoothie", "Milkshake", "Cold Coffee", "Coconut Water", "Iced Latte", "Frappe",
@@ -71,7 +71,7 @@ def reset_game():
     st.session_state.show_word = False
 
 # Title
-st.markdown('# Welcome to the <span style="color:green">Chameleon</span> Game!', unsafe_allow_html=True)
+st.markdown('# Welcome to the <span style="color:#4CAF50">Chameleon</span> Game!', unsafe_allow_html=True)
 
 # Game flow logic
 if st.session_state.step == "welcome":
