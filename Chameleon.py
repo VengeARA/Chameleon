@@ -2,6 +2,7 @@ import streamlit as st
 import random
 import pandas as pd
 
+st.set_page_config(page_title="Chameleon", page_icon="⛅", layout="centered")
 # Categories dictionary
 categories = {
     "Snacks at the Movies": [
